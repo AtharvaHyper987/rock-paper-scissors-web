@@ -1,0 +1,80 @@
+* {
+  margin: 9px;
+  padding: 0px;
+}
+
+.rockButton {
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.3s;
+}
+.rockButton:hover {
+  color: white;
+  background-color: blue;
+}
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h1 {
+  text-align: center;
+}
+
+.paperButton {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.3001s;
+}
+.paperButton:hover {
+  color: white;
+  background-color: #ff6666;
+}
+.scissorsButton {
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.scissorsButton:hover {
+  background-color: lightgreen;
+  color: white;
+}
+
+.container {
+  display: flex;
+}
+
+.first {
+  background-color: yellow;
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.second {
+  background-color: lightblue;
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+#winner {
+  text-align: center;
+  font-size: 30px;
+}
+#footer {
+  text-align: center;
+  font-size: 15px;
+  background-color: lightgreen;
+  padding: 10px;
+  margin: 10px;
+  width: 30%;
+  margin: auto;
+}

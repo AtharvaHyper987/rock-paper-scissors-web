@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+
+    <div class="buttons">
+      <button class="rockButton" onclick="loadRock()">Rock</button>
+      <button class="paperButton" onclick="loadPaper()">Paper</button>
+      <button class="scissorsButton" onclick="loadScissors()">Scissors</button>
+    </div>
+
+    <div class="container">
+      <div class="first">
+        <h1>You</h1>
+        <img
+          id="rps"
+          width="100px"
+          src="http://clipart-library.com/img/1603226.png"
+        />
+        <p id="userSelection">You chose Rock</p>
+      </div>
+      <div class="second">
+        <h1>Computer</h1>
+        <img
+          id="computer-rps"
+          width="100px"
+          src="http://clipart-library.com/img/1603226.png"
+        />
+        <p id="computerSelection">You chose Rock</p>
+        <p></p>
+      </div>
+    </div>
+
+    <div id="winner">Game Draw</div>
+    <footer id="footer">Created by: Atharva Singhal</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
